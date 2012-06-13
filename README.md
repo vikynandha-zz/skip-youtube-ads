@@ -10,7 +10,7 @@ This is a small chrome extension I wrote to be merged with the extension Adzap (
 I haven't yet packaged this to be available in Google webstore. Anyway, you can install this by doing the following steps:
 
 1. Get the code
-   * Download this as zip and extract to any place in your computer (or)
+   * [Download this as zip](https://github.com/vikynandha/skip-youtube-ads/zipball/master) and extract to any place in your computer (or)
    * Clone the repo
 2. Open your Google Chrome / Chromium web browser
 3. From `Tools` menu click `Extensions`
