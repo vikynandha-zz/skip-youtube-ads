@@ -1,0 +1,22 @@
+{
+	"name" : "Test Extension",
+	"version" : "1.0",
+	"description" : "Test",
+	"permissions": [
+	  	"tabs",
+		"notifications",
+	  	"unlimitedStorage"
+	],
+	"content_scripts" : [
+	  {
+	    "matches" : [
+	      "http://*/*",
+	      "https://*/*"
+	    ],
+	    "js" : ["js/jquery-1.7.1.min.js", "js/skip-ads.js"],
+	    "css": ["css/style.css"],
+	    "run_at" : "document_idle",
+	    "all_frames" : true
+	  }
+	]
+}
