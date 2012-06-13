@@ -8,6 +8,7 @@ This is a small chrome extension I wrote to be merged with the extension Adzap (
 ## How to install?
 
 I haven't yet packaged this to be available in Google webstore. Anyway, you can install this by doing the following steps:
+
 1. Get the code
    * Download this as zip and extract to any place in your computer (or)
    * Clone the repo
