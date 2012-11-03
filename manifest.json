@@ -1,14 +1,12 @@
 {
-    "name" : "Skip Youtube Ads",
+    "name" : "Skip Ads on Youtube™",
     "version" : "1.1",
     "manifest_version": 2,
 
-    "description" : "Test",
     "icons": {
-        /* <a href="http://thenounproject.com/noun/skip/#icon-No5650" target="_blank">Skip</a> designed by <a href="http://thenounproject.com/convoy" target="_blank">Marc Antosch</a> from The Noun Project */
-        "16": "img/icon16.png",
-        "48": "img/icon48.png",
-        "128": "img/icon128.png"
+        "16": "/img/icon16.png",
+        "48": "/img/icon48.png",
+        "128": "/img/icon128.png"
     },
 
     "content_scripts" : [
