@@ -3,6 +3,7 @@
     $embed = $( 'embed[src*="//s.ytimg.com/"]' );
     is_html5 = $('#watch-player').find("video").length > 0;
 
+    if ( $embed.length === 0 ) return;
     $( '<button id="chrome-extension-skip-ad-btn">Skip ad</button>' )
         .appendTo( 'body' )
         .on( 'click', function() {
